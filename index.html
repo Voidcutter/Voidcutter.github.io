@@ -19,6 +19,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:100,300,400,500" rel="stylesheet">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
 
 </head>
 
@@ -38,8 +39,8 @@
 
 					<p class="block-description header-description"><span>Я, Юрий Пашкин,</span> разрабатываю сайты для бизнеса. Продающие одностраничники, имиджевые сайты-визитки <span>или полноценные интернет-магазины.</span></p>
 					
-					<a href="#" class="header-button">Примеры работ</a>
-					<a href="#" class="header-button header-button_o">Обсудить проект</a>
+					<a href="#" class="header-button wow zoomIn" data-wow-delay="0.1s">Примеры работ</a>
+					<a href="#" class="header-button header-button_o wow zoomIn" data-wow-delay="0.1s">Обсудить проект</a>
 
 				</div>
 
@@ -58,12 +59,12 @@
 
 			<div class="container">
 
-				<h2 class="block-title">Мои работы</h2>
+				<h2 class="block-title wow fadeIn" data-wow-delay="1.5s">Мои работы</h2>
 
 				<div class="works-items">
 					
 					<!-- work items start -->
-					<div class="work-item">
+					<div class="work-item wow fadeIn" data-wow-delay="0.1s">
 
 						<div class="work-img">
 
@@ -85,7 +86,7 @@
 					</div>
 
 
-					<div class="work-item">
+					<div class="work-item wow fadeIn" data-wow-delay="0.1s">
 
 						<div class="work-img">
 							<img src="img/works/work-img-02.jpg" alt="work image">
@@ -123,9 +124,9 @@
 
 					<div class="action-text">
 
-						<h2 class="block-title">Нужен сайт</h2>
+						<h2 class="block-title wow fadeIn" wow-data-delay="1s">Нужен сайт?</h2>
 
-						<p class="block-description action-description">Если у вас есть задумки по сайту давайте обсудим их. Я сориентирую по срокам и стоимости </p>
+						<p class="block-description action-description wow fadeIn" wow-data-delay="1s">Если у вас есть задумки по сайту, давайте обсудим их. Я сориентирую по срокам и стоимости.</p>
 						
 					</div>
 
@@ -135,7 +136,7 @@
 
 						<input type="text" class="action-input" placeholder="e-mail">
 
-						<input type="submit" class="action-submit" value="Отправить">
+						<input type="submit" class="action-submit wow fadeInRightBig" data-wow-delay="0.1s" value="Отправить">
 						
 					</form>
 					
@@ -159,20 +160,20 @@
 
 					<div class="about-experience">
 
-						<h2 class="block-title">Про опыт</h2>
+						<h2 class="block-title wow fadeInUp" data-wow-delay="0.3s">Про опыт</h2>
 
-						<p class="block-description about-description">
+						<p class="block-description about-description wow fadeIn" data-wow-delay="0.3s">
 							Делать сайты я учился в Академии верстки на курсе «Веб-разработчик»
 						</p>
 
-						<img src="img/certificate.jpg" class="about-img" alt="about img">
+						<img src="img/certificate.jpg" class="about-img wow fadeIn" data-wow-delay="0.5s" alt="about img">
 						
 					</div>
 
 
 					<div class="about-text">
 
-						<h2 class="block-title">Связаться со мной</h2>
+						<h2 class="block-title wow fadeInUp" data-wow-delay="0.1s">Связаться со мной</h2>
 
 						<div class="about-contacts">
 
@@ -241,13 +242,13 @@
 
 						<form action="#" class="about-form">
 							
-							<input type="text" class="about-input" placeholder="Имя Фамилия">
+							<input type="text" class="about-input wow fadeInRightBig" data-wow-delay="0.1s" placeholder="Имя Фамилия">
 
-							<input type="text" class="about-input" placeholder="Телефон">
+							<input type="text" class="about-input wow fadeInRightBig" data-wow-delay="0.1s" placeholder="Телефон">
 
-							<input type="email" class="about-input" placeholder="e-mail">
+							<input type="email" class="about-input wow fadeInRightBig" data-wow-delay="0.1s" placeholder="e-mail">
 
-							<input type="submit" class="about-submit" placeholder="Отправить">
+							<input type="submit" class="about-submit wow fadeInRightBig" data-wow-delay="0.1s" placeholder="Отправить">
 
 							<div class="form-check">
 
@@ -294,6 +295,10 @@
 		</div>
 
 	</footer>
+
+	<script src="js/wow.min.js"></script>
+
+	<script> new WOW().init();</script>
 
 </body>
 
